@@ -58,9 +58,7 @@ body {
 
 .botoes {
     display: block;
-}
-
-@media screen and (min-widht: 768px) {
+    media screen and (min-widht: 768px) {
     .botoes{
         display: flex;
     }
@@ -71,3 +69,4 @@ body {
         border-radius: 0 40px 0 0;
     }
 } 
+}
